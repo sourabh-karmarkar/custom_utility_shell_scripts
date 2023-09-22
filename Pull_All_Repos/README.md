@@ -1,6 +1,6 @@
 You can create a shell script to loop through all the folders in your current directory, check if they are Git repositories, and if so, attempt to pull from the current branch. The git_pull_all_repos.sh script accomplishes this task and logs the results to a text file:
 
-Save this script to a file (e.g., `git_pull_all_repos.sh`) and make it executable:
+Save this script to a file named `git_pull_all_repos.sh` and make it executable
 
 ```bash
 chmod +x git_pull_all_repos.sh
