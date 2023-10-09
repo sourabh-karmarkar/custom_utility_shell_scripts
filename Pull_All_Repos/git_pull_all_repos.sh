@@ -29,7 +29,7 @@ pull_from_current_branch() {
 # Main loop to traverse folders and pull from Git repositories
 for dir in */; do
   dir="${dir%/}" # Remove trailing slash
-  echo "$dir"
+  pull_from_current_branch "$dir"
 done
 
 echo "Git pull process completed. Check $LOG_FILE for details."
