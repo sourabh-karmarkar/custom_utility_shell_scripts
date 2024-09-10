@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set your ElastiCache Redis endpoint here
-CLUSTER_ENDPOINT="YOUR_REDIS_CONFIGURATION_ENDPOINT"
+CLUSTER_ENDPOINT="r8e964-hms-elasticredis.jw9vpg.clustercfg.aps1.cache.amazonaws.com"
 CLUSTER_PORT="6379"  # Default Redis port, change if necessary
 
 # Function to get memory usage and number of keys
